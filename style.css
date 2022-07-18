@@ -1,0 +1,44 @@
+body{
+    padding-top:70px;
+    padding-left:80px;
+    padding-right:80px;
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+}
+
+li {
+  float: left;
+}
+
+li a {
+  display: block;
+  color:#555555;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-family:'Inter';
+}
+
+li a:hover {
+   color:#FF3998;
+}
+
+.active{
+    color:#FF3998;
+}
+
+.companies{
+    display:flex;
+    margin-top:50px;
+}
+
+.companies > img{
+    flex:1;
+    max-height:50px;
+    margin:0;
+}
